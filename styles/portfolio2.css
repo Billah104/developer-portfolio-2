@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 
@@ -84,36 +84,261 @@
     color: #707070;
     margin-bottom: 50px;
 }
-.amount-select{
+
+.amount-select {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.amount{
+
+.amount {
     margin-right: 22px;
     background: #FAFAFA;
-border-radius: 5px;
-font-weight: 700;
-font-size: 30px;
-color: #707070;
-padding: 43px 25px 44px 24px;
-text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    padding: 43px 25px 44px 24px;
+    text-align: center;
 }
-.amount-different{
+
+.amount-different {
     margin-right: 22px;
     background: #FFEEEE;
-border: 2px solid #FF5959;
-border-radius: 5px;
-font-weight: 700;
-font-size: 30px;
-color: #FF5959;
-text-align: center;
-padding: 43px 23px;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FF5959;
+    text-align: center;
+    padding: 43px 23px;
 }
-.section-other-amount{
+
+.section-other-amount {
     color: #B3B3B3;
     font-weight: 400;
-font-size: 18px;
-margin-top: 60px;
-margin-bottom: 39.5px;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 39.5px;
 
+}
+
+.main-section-div {
+    text-align: center;
+}
+
+.sec-human-main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Our-Donate-Plan {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.Our-Donate-Plan-prg {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 55.5px;
+}
+
+.food-for-a-family {
+    background: rgba(201, 209, 124, 0.942);
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 360px;
+    height: 352px;
+
+}
+
+.Shelter-for-a-family {
+    background: rgba(232, 119, 119, 0.649);
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 360px;
+    height: 352px;
+
+}
+
+.Education-for-a-child {
+    background: rgba(98, 37, 37, 0.636);
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 360px;
+    height: 352px;
+}
+
+.image-div-food {
+    margin-bottom: 31.73px;
+    padding-left: 23px;
+    padding-top: 63.5px;
+    padding-right: 278.87px;
+}
+
+.image-div-shelter {
+    margin-bottom: 29.5px;
+    padding-left: 28px;
+    padding-right: 279px;
+    padding-top: 57px;
+}
+
+.image-div-education {
+    margin-bottom: 29.78px;
+    padding-left: 23px;
+    padding-right: 284px;
+    padding-top: 62.5px;
+}
+
+.section-human-food {
+    padding-left: 23px;
+    padding-right: 133px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+}
+
+.section-human-shelter {
+    margin-left: 23px;
+    padding-right: 106px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+}
+
+.section-human-education {
+    padding-left: 23px;
+    padding-right: 87px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+}
+
+.sec-human-food-pr {
+    ont-weight: 400;
+    font-size: 16px;
+    color: #180606;
+    padding-left: 23px;
+    padding-bottom: 54px;
+    padding-right: 22px;
+    text-align: left;
+}
+
+.sec-human-shelter-pr {
+    padding-left: 23px;
+    padding-bottom: 59.5px;
+    padding-right: 22px;
+    text-align: left;
+}
+
+.sec-human-education-pr {
+    padding-left: 23px;
+    padding-right: 22px;
+    padding-bottom: 53.72px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #020000;
+
+}
+
+/* Their lives depend on your donation styles */
+.lives-image-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.images-donation12 {
+    width: 600px;
+    height: 477px;
+    margin-left: 83px;
+    margin-top: 130.5px;
+
+
+}
+
+.depend-your-donation-head {
+    margin-top: 182.5px;
+    font-weight: 700;
+    font-size: 45px;
+
+    font-family: 'Inter';
+    margin-right: 80px;
+    width: 492px;
+
+}
+
+.depend-your-donation-pr {
+    width: 482px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.depend-your-donation-pr2 {
+    width: 482px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.lives-image-nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 290px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #121212;
+}
+.program-title{
+    ont-weight: 400;
+font-size: 18px;
+color: #707070;
+margin-bottom: 50px;
+}
+.email-border{
+    
+    width: 600px;
+
+    height: 50px;
+  
+    margin: auto;
+  
+    padding: 76px 190px;
+  
+    background: #fff4d6;
+  
+    position: relative;
+    margin-bottom: 140px;
+}
+#email-1{
+    width: 275px;
+height: 48px;
+
+background: #D9D9D9;
+border-radius: 5px 0px 0px 5px;
 }
